@@ -1,7 +1,6 @@
 #include <iostream>
 #include <fstream>
 #include <map>
-#include <algorithm>
 
 using namespace std;
 
@@ -37,6 +36,7 @@ int digitsAndWords(string& line){
     cout << line << endl;
     return first*10 + last;
 }
+
 
 int main() {
     ifstream ifs(R"(./2023/Day 01/calibrationValues.txt)");
