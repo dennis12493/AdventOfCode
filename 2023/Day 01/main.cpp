@@ -51,6 +51,7 @@ int main() {
     {
         sum += digitsAndWords(line);
     }
+    ifs.close();
     cout << sum << endl;
     return 0;
 }
